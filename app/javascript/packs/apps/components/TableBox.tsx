@@ -21,8 +21,5 @@ const showTables = (tables: Array<any>) => {
     return list;
 };
 
-const mapToStateApps = (state: any, unko: any) => {
-    return state;
-};
-
+const mapToStateApps = (state: any, unko: any) => state;
 export default connect(mapToStateApps)(TableBox);
